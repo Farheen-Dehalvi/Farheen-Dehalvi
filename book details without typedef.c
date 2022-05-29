@@ -79,7 +79,7 @@ void sort(struct book_details *a,int n)
 {
     int i,j;
     struct book_details temp,*q;
-
+    printf("\n\nafter sorting\n");
     for(i=0;i<n-1;i++)
     {
         for(j=0;j<n-1;j++)
